@@ -21,6 +21,8 @@
 		603EFCCF1ACA387300D74AAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603EFCB11ACA387300D74AAE /* UIKit.framework */; };
 		603EFCD71ACA387300D74AAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 603EFCD51ACA387300D74AAE /* InfoPlist.strings */; };
 		603EFCD91ACA387300D74AAE /* YARRRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCD81ACA387300D74AAE /* YARRRTests.m */; };
+		603EFCE81ACB912100D74AAE /* GGTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCE71ACB912100D74AAE /* GGTile.m */; };
+		603EFCE91ACB912100D74AAE /* GGTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCE71ACB912100D74AAE /* GGTile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		603EFCD41ACA387300D74AAE /* YARRRTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YARRRTests-Info.plist"; sourceTree = "<group>"; };
 		603EFCD61ACA387300D74AAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		603EFCD81ACA387300D74AAE /* YARRRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YARRRTests.m; sourceTree = "<group>"; };
+		603EFCE61ACB912100D74AAE /* GGTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTile.h; sourceTree = "<group>"; };
+		603EFCE71ACB912100D74AAE /* GGTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 				603EFCC31ACA387300D74AAE /* GGViewController.m */,
 				603EFCC51ACA387300D74AAE /* Images.xcassets */,
 				603EFCB41ACA387300D74AAE /* Supporting Files */,
+				603EFCE61ACB912100D74AAE /* GGTile.h */,
+				603EFCE71ACB912100D74AAE /* GGTile.m */,
 			);
 			path = YARRR;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 				603EFCBE1ACA387300D74AAE /* GGAppDelegate.m in Sources */,
 				603EFCC41ACA387300D74AAE /* GGViewController.m in Sources */,
 				603EFCBA1ACA387300D74AAE /* main.m in Sources */,
+				603EFCE81ACB912100D74AAE /* GGTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				603EFCD91ACA387300D74AAE /* YARRRTests.m in Sources */,
+				603EFCE91ACB912100D74AAE /* GGTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
