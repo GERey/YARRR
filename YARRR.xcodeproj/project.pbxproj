@@ -29,6 +29,8 @@
 		603EFCF11ACB99B700D74AAE /* GGWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEF1ACB99B700D74AAE /* GGWeapon.m */; };
 		603EFCF41ACB9A5200D74AAE /* GGArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF31ACB9A5200D74AAE /* GGArmor.m */; };
 		603EFCF51ACB9A5200D74AAE /* GGArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF31ACB9A5200D74AAE /* GGArmor.m */; };
+		603EFCF81ACB9E6D00D74AAE /* GGTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */; };
+		603EFCF91ACB9E6D00D74AAE /* GGTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		603EFCEF1ACB99B700D74AAE /* GGWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGWeapon.m; sourceTree = "<group>"; };
 		603EFCF21ACB9A5200D74AAE /* GGArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGArmor.h; sourceTree = "<group>"; };
 		603EFCF31ACB9A5200D74AAE /* GGArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGArmor.m; sourceTree = "<group>"; };
+		603EFCF61ACB9E6D00D74AAE /* GGTileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTileFactory.h; sourceTree = "<group>"; };
+		603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTileFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +147,8 @@
 				603EFCEF1ACB99B700D74AAE /* GGWeapon.m */,
 				603EFCF21ACB9A5200D74AAE /* GGArmor.h */,
 				603EFCF31ACB9A5200D74AAE /* GGArmor.m */,
+				603EFCF61ACB9E6D00D74AAE /* GGTileFactory.h */,
+				603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */,
 			);
 			path = YARRR;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 				603EFCBA1ACA387300D74AAE /* main.m in Sources */,
 				603EFCF01ACB99B700D74AAE /* GGWeapon.m in Sources */,
 				603EFCEC1ACB989E00D74AAE /* GGCharacter.m in Sources */,
+				603EFCF81ACB9E6D00D74AAE /* GGTileFactory.m in Sources */,
 				603EFCE81ACB912100D74AAE /* GGTile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603EFCF91ACB9E6D00D74AAE /* GGTileFactory.m in Sources */,
 				603EFCD91ACA387300D74AAE /* YARRRTests.m in Sources */,
 				603EFCF51ACB9A5200D74AAE /* GGArmor.m in Sources */,
 				603EFCF11ACB99B700D74AAE /* GGWeapon.m in Sources */,
