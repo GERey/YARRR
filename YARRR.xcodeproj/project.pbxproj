@@ -25,6 +25,8 @@
 		603EFCE91ACB912100D74AAE /* GGTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCE71ACB912100D74AAE /* GGTile.m */; };
 		603EFCEC1ACB989E00D74AAE /* GGCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEB1ACB989E00D74AAE /* GGCharacter.m */; };
 		603EFCED1ACB989E00D74AAE /* GGCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEB1ACB989E00D74AAE /* GGCharacter.m */; };
+		603EFCF01ACB99B700D74AAE /* GGWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEF1ACB99B700D74AAE /* GGWeapon.m */; };
+		603EFCF11ACB99B700D74AAE /* GGWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEF1ACB99B700D74AAE /* GGWeapon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		603EFCE71ACB912100D74AAE /* GGTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTile.m; sourceTree = "<group>"; };
 		603EFCEA1ACB989E00D74AAE /* GGCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCharacter.h; sourceTree = "<group>"; };
 		603EFCEB1ACB989E00D74AAE /* GGCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCharacter.m; sourceTree = "<group>"; };
+		603EFCEE1ACB99B700D74AAE /* GGWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGWeapon.h; sourceTree = "<group>"; };
+		603EFCEF1ACB99B700D74AAE /* GGWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGWeapon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				603EFCE71ACB912100D74AAE /* GGTile.m */,
 				603EFCEA1ACB989E00D74AAE /* GGCharacter.h */,
 				603EFCEB1ACB989E00D74AAE /* GGCharacter.m */,
+				603EFCEE1ACB99B700D74AAE /* GGWeapon.h */,
+				603EFCEF1ACB99B700D74AAE /* GGWeapon.m */,
 			);
 			path = YARRR;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				603EFCBE1ACA387300D74AAE /* GGAppDelegate.m in Sources */,
 				603EFCC41ACA387300D74AAE /* GGViewController.m in Sources */,
 				603EFCBA1ACA387300D74AAE /* main.m in Sources */,
+				603EFCF01ACB99B700D74AAE /* GGWeapon.m in Sources */,
 				603EFCEC1ACB989E00D74AAE /* GGCharacter.m in Sources */,
 				603EFCE81ACB912100D74AAE /* GGTile.m in Sources */,
 			);
@@ -275,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				603EFCD91ACA387300D74AAE /* YARRRTests.m in Sources */,
+				603EFCF11ACB99B700D74AAE /* GGWeapon.m in Sources */,
 				603EFCE91ACB912100D74AAE /* GGTile.m in Sources */,
 				603EFCED1ACB989E00D74AAE /* GGCharacter.m in Sources */,
 			);
