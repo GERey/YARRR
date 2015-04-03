@@ -7,6 +7,7 @@
 //
 
 #import "GGViewController.h"
+#import "GGTileFactory.h"
 
 @interface GGViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    GGTileFactory* tileFactory = [[GGTileFactory alloc] init];
+    NSArray* gameTiles = [tileFactory generateTiles];
 }
 
 - (void)didReceiveMemoryWarning

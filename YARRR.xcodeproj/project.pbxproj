@@ -31,6 +31,7 @@
 		603EFCF51ACB9A5200D74AAE /* GGArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF31ACB9A5200D74AAE /* GGArmor.m */; };
 		603EFCF81ACB9E6D00D74AAE /* GGTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */; };
 		603EFCF91ACB9E6D00D74AAE /* GGTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */; };
+		603EFD531ACE5C3400D74AAE /* pirates in Resources */ = {isa = PBXBuildFile; fileRef = 603EFD521ACE5C3400D74AAE /* pirates */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		603EFCF31ACB9A5200D74AAE /* GGArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGArmor.m; sourceTree = "<group>"; };
 		603EFCF61ACB9E6D00D74AAE /* GGTileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTileFactory.h; sourceTree = "<group>"; };
 		603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTileFactory.m; sourceTree = "<group>"; };
+		603EFD521ACE5C3400D74AAE /* pirates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pirates; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		603EFCB41ACA387300D74AAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				603EFD521ACE5C3400D74AAE /* pirates */,
 				603EFCB51ACA387300D74AAE /* YARRR-Info.plist */,
 				603EFCB61ACA387300D74AAE /* InfoPlist.strings */,
 				603EFCB91ACA387300D74AAE /* main.m */,
@@ -262,6 +265,7 @@
 				603EFCC61ACA387300D74AAE /* Images.xcassets in Resources */,
 				603EFCB81ACA387300D74AAE /* InfoPlist.strings in Resources */,
 				603EFCC11ACA387300D74AAE /* Main.storyboard in Resources */,
+				603EFD531ACE5C3400D74AAE /* pirates in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
