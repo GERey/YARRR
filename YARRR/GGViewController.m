@@ -21,6 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     GGTileFactory* tileFactory = [[GGTileFactory alloc] init];
     NSArray* gameTiles = [tileFactory generateTiles];
+    NSLog(@"finished initlization");
 }
 
 - (void)didReceiveMemoryWarning
