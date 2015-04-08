@@ -22,6 +22,9 @@
                                 <state key="normal" title="Up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="upButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Xsg-1S-9BO"/>
+                                </connections>
                             </button>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ibj-P0-Ric">
                                 <rect key="frame" x="226" y="505" width="40" height="30"/>
@@ -29,6 +32,9 @@
                                 <state key="normal" title="Down">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="downButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ueJ-Cf-DU3"/>
+                                </connections>
                             </button>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qe6-vA-IQX">
                                 <rect key="frame" x="188" y="467" width="30" height="30"/>
@@ -36,6 +42,9 @@
                                 <state key="normal" title="Left">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="leftButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Dlz-GO-ltj"/>
+                                </connections>
                             </button>
                             <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sd6-n2-ZoK">
                                 <rect key="frame" x="263" y="467" width="37" height="30"/>
@@ -43,6 +52,9 @@
                                 <state key="normal" title="Right">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="rightButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Wm-xz-NEN"/>
+                                </connections>
                             </button>
                             <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9w8-a1-zAM">
                                 <rect key="frame" x="46" y="132" width="240" height="289"/>
@@ -114,6 +126,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="armorNameDisplay" destination="MAl-5I-etz" id="WwO-d4-0li"/>
+                        <outlet property="damageDisplay" destination="ktQ-nz-Uqr" id="qw9-Fo-eo5"/>
+                        <outlet property="gameImage" destination="9w8-a1-zAM" id="sMX-3R-aS9"/>
+                        <outlet property="healthDisplay" destination="c2B-Iq-s8t" id="6gR-6C-FsD"/>
+                        <outlet property="storyDisplay" destination="0II-ta-BOR" id="l49-xL-3FQ"/>
+                        <outlet property="weaponNameDisplay" destination="ZQY-Vt-zLZ" id="arp-9c-9CC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
