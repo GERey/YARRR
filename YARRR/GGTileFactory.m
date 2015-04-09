@@ -11,7 +11,9 @@
 
 @implementation GGTileFactory
 -(NSArray*) generateTiles {
-    NSMutableArray* tiles = [[NSMutableArray alloc] init];
+    //holds rows of tiles
+
+
     int rows = 4;
     int columns = 3;
 
@@ -33,6 +35,9 @@
     //Then take that value out of the array and put it into the tile
     //Go back and repeat step 1.
     //Fail Conditions: When there aren't enough images for the game size
+    NSMutableArray* rowContainer = [[NSMutableArray alloc] init];
+    //holds column of tiles. Columsn get added to rows
+    NSMutableArray* columnContainer = [[NSMutableArray alloc] init];
     for (int rowIndex = 0; rowIndex < rows; rowIndex++) {
         for (int columnIndex = 0; columnIndex < columns; columnIndex++) {
             //Create a seed based on how many items are in the mutable arrays
@@ -49,10 +54,12 @@
             
             [gameImagesMutableList removeObjectAtIndex:randomNumber];
             
-            [tiles addObject:tile];
+            [columnContainer addObject:tile];
         }
+        [rowContainer addObject:columnContainer];
+        columnContainer = [[NSMutableArray alloc] init];
     }
     
-    return tiles;
+    return rowContainer;
 }
 @end

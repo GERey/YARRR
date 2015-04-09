@@ -20,4 +20,5 @@
 - (IBAction)rightButton:(UIButton *)sender;
 - (IBAction)downButton:(UIButton *)sender;
 
+- (void) initGame;
 @end
