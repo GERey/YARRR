@@ -13,7 +13,7 @@
 -(NSArray*) generateTiles {
     //holds rows of tiles
 
-
+    //make getters
     int rows = 4;
     int columns = 3;
 
