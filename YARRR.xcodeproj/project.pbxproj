@@ -23,8 +23,6 @@
 		603EFCD91ACA387300D74AAE /* YARRRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCD81ACA387300D74AAE /* YARRRTests.m */; };
 		603EFCE81ACB912100D74AAE /* GGTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCE71ACB912100D74AAE /* GGTile.m */; };
 		603EFCE91ACB912100D74AAE /* GGTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCE71ACB912100D74AAE /* GGTile.m */; };
-		603EFCEC1ACB989E00D74AAE /* GGCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEB1ACB989E00D74AAE /* GGCharacter.m */; };
-		603EFCED1ACB989E00D74AAE /* GGCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEB1ACB989E00D74AAE /* GGCharacter.m */; };
 		603EFCF01ACB99B700D74AAE /* GGWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEF1ACB99B700D74AAE /* GGWeapon.m */; };
 		603EFCF11ACB99B700D74AAE /* GGWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCEF1ACB99B700D74AAE /* GGWeapon.m */; };
 		603EFCF41ACB9A5200D74AAE /* GGArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF31ACB9A5200D74AAE /* GGArmor.m */; };
@@ -32,6 +30,8 @@
 		603EFCF81ACB9E6D00D74AAE /* GGTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */; };
 		603EFCF91ACB9E6D00D74AAE /* GGTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */; };
 		603EFD531ACE5C3400D74AAE /* pirates in Resources */ = {isa = PBXBuildFile; fileRef = 603EFD521ACE5C3400D74AAE /* pirates */; };
+		603EFD5A1AE0CA9A00D74AAE /* GGPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFD591AE0CA9A00D74AAE /* GGPlayer.m */; };
+		603EFD5E1AE0CCDA00D74AAE /* GGBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFD5D1AE0CCDA00D74AAE /* GGBoss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +67,6 @@
 		603EFCE61ACB912100D74AAE /* GGTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTile.h; sourceTree = "<group>"; };
 		603EFCE71ACB912100D74AAE /* GGTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTile.m; sourceTree = "<group>"; };
 		603EFCEA1ACB989E00D74AAE /* GGCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCharacter.h; sourceTree = "<group>"; };
-		603EFCEB1ACB989E00D74AAE /* GGCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCharacter.m; sourceTree = "<group>"; };
 		603EFCEE1ACB99B700D74AAE /* GGWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGWeapon.h; sourceTree = "<group>"; };
 		603EFCEF1ACB99B700D74AAE /* GGWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGWeapon.m; sourceTree = "<group>"; };
 		603EFCF21ACB9A5200D74AAE /* GGArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGArmor.h; sourceTree = "<group>"; };
@@ -75,6 +74,8 @@
 		603EFCF61ACB9E6D00D74AAE /* GGTileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGTileFactory.h; sourceTree = "<group>"; };
 		603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGTileFactory.m; sourceTree = "<group>"; };
 		603EFD521ACE5C3400D74AAE /* pirates */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pirates; sourceTree = "<group>"; };
+		603EFD591AE0CA9A00D74AAE /* GGPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlayer.m; sourceTree = "<group>"; };
+		603EFD5D1AE0CCDA00D74AAE /* GGBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBoss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +135,8 @@
 		603EFCB31ACA387300D74AAE /* YARRR */ = {
 			isa = PBXGroup;
 			children = (
+				603EFD5B1AE0CBC500D74AAE /* Items */,
+				603EFD541AE0C7DE00D74AAE /* Players */,
 				603EFCBC1ACA387300D74AAE /* GGAppDelegate.h */,
 				603EFCBD1ACA387300D74AAE /* GGAppDelegate.m */,
 				603EFCBF1ACA387300D74AAE /* Main.storyboard */,
@@ -143,12 +146,6 @@
 				603EFCB41ACA387300D74AAE /* Supporting Files */,
 				603EFCE61ACB912100D74AAE /* GGTile.h */,
 				603EFCE71ACB912100D74AAE /* GGTile.m */,
-				603EFCEA1ACB989E00D74AAE /* GGCharacter.h */,
-				603EFCEB1ACB989E00D74AAE /* GGCharacter.m */,
-				603EFCEE1ACB99B700D74AAE /* GGWeapon.h */,
-				603EFCEF1ACB99B700D74AAE /* GGWeapon.m */,
-				603EFCF21ACB9A5200D74AAE /* GGArmor.h */,
-				603EFCF31ACB9A5200D74AAE /* GGArmor.m */,
 				603EFCF61ACB9E6D00D74AAE /* GGTileFactory.h */,
 				603EFCF71ACB9E6D00D74AAE /* GGTileFactory.m */,
 			);
@@ -183,6 +180,27 @@
 				603EFCD51ACA387300D74AAE /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		603EFD541AE0C7DE00D74AAE /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				603EFCEA1ACB989E00D74AAE /* GGCharacter.h */,
+				603EFD591AE0CA9A00D74AAE /* GGPlayer.m */,
+				603EFD5D1AE0CCDA00D74AAE /* GGBoss.m */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+		603EFD5B1AE0CBC500D74AAE /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				603EFCEE1ACB99B700D74AAE /* GGWeapon.h */,
+				603EFCEF1ACB99B700D74AAE /* GGWeapon.m */,
+				603EFCF21ACB9A5200D74AAE /* GGArmor.h */,
+				603EFCF31ACB9A5200D74AAE /* GGArmor.m */,
+			);
+			name = Items;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,14 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603EFD5A1AE0CA9A00D74AAE /* GGPlayer.m in Sources */,
 				603EFCF41ACB9A5200D74AAE /* GGArmor.m in Sources */,
 				603EFCBE1ACA387300D74AAE /* GGAppDelegate.m in Sources */,
 				603EFCC41ACA387300D74AAE /* GGViewController.m in Sources */,
 				603EFCBA1ACA387300D74AAE /* main.m in Sources */,
 				603EFCF01ACB99B700D74AAE /* GGWeapon.m in Sources */,
-				603EFCEC1ACB989E00D74AAE /* GGCharacter.m in Sources */,
 				603EFCF81ACB9E6D00D74AAE /* GGTileFactory.m in Sources */,
 				603EFCE81ACB912100D74AAE /* GGTile.m in Sources */,
+				603EFD5E1AE0CCDA00D74AAE /* GGBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +323,6 @@
 				603EFCF51ACB9A5200D74AAE /* GGArmor.m in Sources */,
 				603EFCF11ACB99B700D74AAE /* GGWeapon.m in Sources */,
 				603EFCE91ACB912100D74AAE /* GGTile.m in Sources */,
-				603EFCED1ACB989E00D74AAE /* GGCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

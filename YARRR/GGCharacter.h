@@ -17,4 +17,6 @@
 @property(strong, nonatomic) GGWeapon* weapon;
 @property(strong, nonatomic) GGArmor* armor;
 
+-(void) attack;
+
 @end
