@@ -43,29 +43,33 @@
 }
     //Makes the column increase by one
 - (IBAction)upButton:(UIButton *)sender {
-    [self disableIfNonExistantIndex];
     self.currentTile = self.gameTiles[self.currentRow][self.currentColumn++];
     [self changeCurrentTitle];
+    [self disableIfNonExistantIndex];
+
 }
     //
 - (IBAction)leftButton:(UIButton *)sender {
-    [self disableIfNonExistantIndex];
     self.currentTile = self.gameTiles[self.currentRow--][self.currentColumn];
     [self changeCurrentTitle];
+    [self disableIfNonExistantIndex];
+
 
 }
 
 - (IBAction)rightButton:(UIButton *)sender {
-    [self disableIfNonExistantIndex];
     self.currentTile = self.gameTiles[self.currentRow++][self.currentColumn];
     [self changeCurrentTitle];
+    [self disableIfNonExistantIndex];
+
 
 }
 
 - (IBAction)downButton:(UIButton *)sender {
-    [self disableIfNonExistantIndex];
     self.currentTile = self.gameTiles[self.currentRow][self.currentColumn--];
     [self changeCurrentTitle];
+    [self disableIfNonExistantIndex];
+
 }
 - (void) initGame{
     self.healthDisplay.text = @"12";
@@ -80,36 +84,44 @@
 }
 - (void) disableIfNonExistantIndex{
     //Not space efficient but I don't wanna type out self.blah everytime.
-    int r = self.currentRow;
-    int c = self.currentColumn;
     NSArray* a = self.gameTiles;
+    int r = self.currentRow;
+    int maxRow = (int) a.count;
+    int maxCol = (int)[a[r] count];
+    int lowestValue = 0;
+    int c = self.currentColumn;
     //just use count to get how many are in each row and make sure you can't go
     //above or below that
+
     
     //right button check
-    if (![a objectAtIndex:r+1]) {
-        self.rightButtonObject.enabled = NO;
-    }
-    else
+    if ( maxRow > r+1 )
         self.rightButtonObject.enabled = YES;
+    
+    else
+        self.rightButtonObject.enabled = NO;
+
     //left button check
-    if (![a objectAtIndex:r-1]) {
-        self.leftButtonObject.enabled = NO;
-    }
-    else
+    //zero is the lowest
+    if ( lowestValue <= r-1 )
         self.leftButtonObject.enabled = YES;
+
+    else
+        self.leftButtonObject.enabled = NO;
+
     //up button check
-    if (![a[r] objectAtIndex:c+1]) {
-        self.upButtonObject.enabled = NO;
-    }
-    else
+    if ( maxCol > c+1 )
         self.upButtonObject.enabled = YES;
-    //down button check
-    if (![a[r] objectAtIndex:c-1]) {
-        self.downButtonObject.enabled = NO;
-    }
+    
     else
+        self.upButtonObject.enabled = NO;
+
+    //down button check
+    if ( lowestValue <= c-1 )
         self.downButtonObject.enabled = YES;
+    
+    else
+        self.downButtonObject.enabled = NO;
 
 }
 
