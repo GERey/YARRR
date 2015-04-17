@@ -129,9 +129,13 @@
                     <connections>
                         <outlet property="armorNameDisplay" destination="MAl-5I-etz" id="WwO-d4-0li"/>
                         <outlet property="damageDisplay" destination="ktQ-nz-Uqr" id="qw9-Fo-eo5"/>
+                        <outlet property="downButtonObject" destination="Ibj-P0-Ric" id="CHa-kP-Qvx"/>
                         <outlet property="gameImage" destination="9w8-a1-zAM" id="sMX-3R-aS9"/>
                         <outlet property="healthDisplay" destination="c2B-Iq-s8t" id="6gR-6C-FsD"/>
+                        <outlet property="leftButtonObject" destination="Qe6-vA-IQX" id="pfr-vp-48L"/>
+                        <outlet property="rightButtonObject" destination="Sd6-n2-ZoK" id="78x-mO-fLc"/>
                         <outlet property="storyDisplay" destination="0II-ta-BOR" id="l49-xL-3FQ"/>
+                        <outlet property="upButtonObject" destination="a3K-ZS-B4E" id="EdV-0l-Ws5"/>
                         <outlet property="weaponNameDisplay" destination="ZQY-Vt-zLZ" id="arp-9c-9CC"/>
                     </connections>
                 </viewController>
