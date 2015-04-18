@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GGItem.h"
 
-@interface GGArmor : NSObject
+@interface GGArmor : GGItem
 
-@property(strong, nonatomic) NSString* name;
 @property(nonatomic) int damageReduction;
 
 @end

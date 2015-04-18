@@ -9,6 +9,8 @@
 #import "GGCharacter.h"
 
 @implementation GGCharacter
+//initialize each character with a certain amount of health and damage.
+
 -(void) attack {
     
 }

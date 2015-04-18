@@ -7,9 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GGItem.h"
 
 @interface GGTile : NSObject
 @property(strong, nonatomic) NSString* story;
 @property(strong, nonatomic) UIImage* background;
-//Its possible i'll need a property to keep track of where I am but not here.
+@property(strong, nonatomic) GGItem* item;
+//I wonder if the tiles themselves should try to keep  track of area they are
+
 @end

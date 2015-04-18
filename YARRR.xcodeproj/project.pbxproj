@@ -33,6 +33,7 @@
 		603EFD641AE2CF7D00D74AAE /* GGCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFD631AE2CF7D00D74AAE /* GGCharacter.m */; };
 		603EFD671AE2CFDE00D74AAE /* GGPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFD661AE2CFDE00D74AAE /* GGPlayer.m */; };
 		603EFD6A1AE2CFF100D74AAE /* GGBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFD691AE2CFF100D74AAE /* GGBoss.m */; };
+		603EFD6D1AE2D29400D74AAE /* GGItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 603EFD6C1AE2D29400D74AAE /* GGItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,8 @@
 		603EFD661AE2CFDE00D74AAE /* GGPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGPlayer.m; sourceTree = "<group>"; };
 		603EFD681AE2CFF100D74AAE /* GGBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGBoss.h; sourceTree = "<group>"; };
 		603EFD691AE2CFF100D74AAE /* GGBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGBoss.m; sourceTree = "<group>"; };
+		603EFD6B1AE2D29400D74AAE /* GGItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGItem.h; sourceTree = "<group>"; };
+		603EFD6C1AE2D29400D74AAE /* GGItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +209,8 @@
 				603EFCEF1ACB99B700D74AAE /* GGWeapon.m */,
 				603EFCF21ACB9A5200D74AAE /* GGArmor.h */,
 				603EFCF31ACB9A5200D74AAE /* GGArmor.m */,
+				603EFD6B1AE2D29400D74AAE /* GGItem.h */,
+				603EFD6C1AE2D29400D74AAE /* GGItem.m */,
 			);
 			name = Items;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 				603EFCF01ACB99B700D74AAE /* GGWeapon.m in Sources */,
 				603EFCF81ACB9E6D00D74AAE /* GGTileFactory.m in Sources */,
 				603EFCE81ACB912100D74AAE /* GGTile.m in Sources */,
+				603EFD6D1AE2D29400D74AAE /* GGItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

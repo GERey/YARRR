@@ -43,14 +43,20 @@
 }
     //Makes the column increase by one
 - (IBAction)upButton:(UIButton *)sender {
+    NSLog(@"current row: %i, current column: %i",self.currentRow,self.currentColumn);
     self.currentTile = self.gameTiles[self.currentRow][self.currentColumn++];
+    NSLog(@"Changed row: %i, Changed column: %i",self.currentRow,self.currentColumn);
+
     [self changeCurrentTitle];
     [self disableIfNonExistantIndex];
 
 }
     //
 - (IBAction)leftButton:(UIButton *)sender {
+    NSLog(@"current row: %i, current column: %i",self.currentRow,self.currentColumn);
     self.currentTile = self.gameTiles[self.currentRow--][self.currentColumn];
+    NSLog(@"Changed row: %i, Changed column: %i",self.currentRow,self.currentColumn);
+
     [self changeCurrentTitle];
     [self disableIfNonExistantIndex];
 
@@ -58,7 +64,10 @@
 }
 
 - (IBAction)rightButton:(UIButton *)sender {
+    NSLog(@"current row: %i, current column: %i",self.currentRow,self.currentColumn);
     self.currentTile = self.gameTiles[self.currentRow++][self.currentColumn];
+    NSLog(@"Changed row: %i, Changed column: %i",self.currentRow,self.currentColumn);
+
     [self changeCurrentTitle];
     [self disableIfNonExistantIndex];
 
@@ -66,7 +75,10 @@
 }
 
 - (IBAction)downButton:(UIButton *)sender {
+    NSLog(@"current row: %i, current column: %i",self.currentRow,self.currentColumn);
     self.currentTile = self.gameTiles[self.currentRow][self.currentColumn--];
+    NSLog(@"Changed row: %i, Changed column: %i",self.currentRow,self.currentColumn);
+
     [self changeCurrentTitle];
     [self disableIfNonExistantIndex];
 
